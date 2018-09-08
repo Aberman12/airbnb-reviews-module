@@ -1,0 +1,282 @@
+@font-face {
+    font-family: 'CerealBold';
+    src: url('./styles/Cereal/AirbnbCereal-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'CerealBook';
+    src: url('./styles/Cereal/AirbnbCereal-Book.ttf');
+}
+
+@font-face {
+    font-family: 'CerealLight';
+    src: url('./styles/Cereal/AirbnbCereal-Light.ttf');
+}
+
+/* @font-face {
+    font-family: 'cerealMedium';
+    src: url('./Cereal/AirbnbCereal-Medium.ttf')
+} */
+
+.header {
+    font-family:'CerealBold';
+    display: inline-block;
+    position:relative;
+    margin-right:17px;
+    font-size:23px;
+    margin-bottom:15px;
+    /* padding-left: 13px; */
+    /* font-family: 'CerealBold'; */
+}
+
+.review {
+    font-family: 'CerealLight';
+    font-size:16px;
+}
+
+.personInfo {
+    margin-top: -70px;
+    margin-left:65px;
+    margin-bottom:5px;
+}
+
+.username {
+    font-family:'CerealBook';
+    font-size:16px;
+    margin-bottom:5px;
+    margin-top:10px;
+}
+
+.rev {
+    margin-top:50px;
+}
+
+.date {
+    font-family: 'CerealLight';
+    font-size:14px;
+}
+
+.revImg {
+    /* display:inline-block; */
+    margin-top:-190px;
+    margin-bottom:15px;
+    height: 45px;
+    width:45px;
+    border-radius: 50%;
+}
+
+.stuff {
+    /* margin-top:27px; */
+    display: inline-block;
+    margin-bottom:12px;
+    margin-top:30px;
+}
+
+.header2 {
+    /* margin-bottom:-26px;
+    position: relative;
+    display: inline-block;  */
+    margin-left:40px; 
+    margin-bottom:15px;
+}
+
+.header {
+    display:inline-block;
+}
+
+.flag {
+    display: inline-block;
+    position:absolute;
+    margin-left:41%;
+    margin-top:-35px;
+    font-size:20px;
+    color:#6d6c6c;
+}
+
+.input {
+    font-family: 'CerealBook';
+    font-size:10px;
+    display:inline-block;
+    margin-left: 31%;
+    padding:7px;
+    width: 25.5%;
+    margin-bottom:15px;
+
+}
+
+.container {
+    margin-top:26px;
+    /* text-align: center; */
+}
+
+.hr {
+    margin-top:22px;
+    margin-bottom: -15px;
+    height: 1px;
+    border: 0;
+    border-top: 1.3px solid #eee;
+    color: #6d6c6c;
+}
+
+.hr2 {
+    margin-top: 13px;
+    height: 1px;
+    border: 0;
+    border-top: 1.3px solid #eee;
+    color: #6d6c6c;
+}
+
+.h4Acc {
+    font-family: 'CerealLight';
+    font-size: 16px;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+.Accuracy {
+    margin-bottom :15px;
+    display:inline-block;
+}
+
+.h4Com {
+    font-family: 'CerealLight';
+    margin-top:8px;
+    font-size: 16px;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+.Communication {
+    margin-bottom:15px;
+    display:inline-block;
+}
+
+.h4Clen {
+    font-family: 'CerealLight';
+    margin-top:8px;
+    font-size: 16px;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+.Cleanliness {
+    /* margin-left:10px; */
+    display:inline-block;
+}
+
+.col1 {
+    margin-top:5px;
+    display: inline-block;
+    text-align:left;
+}
+
+.col2 {
+    margin-top:5px;
+    /* margin-top:-10px; */
+    margin-left: 16%;
+    display:inline-block;
+}
+
+.col3 {
+    margin-top:5px;
+    margin-left:7%;
+    display: inline-block;
+    text-align:left;
+
+}
+
+.col4 {
+    margin-top:5px;
+    /* margin-top:-10px; */
+    margin-left: 20%;
+    display:inline-block;
+}
+
+.h4Loc {
+    font-family: 'CerealLight';
+    font-size: 16px;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+.Location {
+    margin-bottom :15px;
+    display:inline-block;
+}
+
+.h4Chec {
+    font-family: 'CerealLight';
+    margin-top:8px;
+    font-size: 16px;
+    display:inline-block;
+    margin-bottom: 10px;
+}
+
+.Check-in {
+    margin-bottom:15px;
+    display:inline-block;
+}
+
+.h4Value {
+    font-family: 'CerealLight';
+    margin-top:8px;
+    font-size: 16px;
+    display:inline-block;
+}
+
+.Value {
+    /* margin-left:10px; */
+    display:inline-block;
+}
+
+.d {
+    margin-top:-20px;
+}
+
+.revlist {
+    margin-top:-6px;
+    display:inline-block;
+    width:48%;
+    margin-left:25.5%;
+    /* align: center;
+    margin-left:29%;
+    margin-right:29%; */
+}
+
+.rev {
+    text-align:left;
+}
+
+ul li {
+    margin-left: 50px;
+    list-style-type: none; 
+    display:inline-block;
+    color: '#00A699';
+}
+
+ul {
+    margin-top:40px;
+    margin-bottom:25px;
+    margin-left: -7.5%;
+    color: '#00A699';
+}
+
+li {
+    color: '#00A699';
+}
+
+.num:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.num {
+    border: solid 3px '#00A699';
+    border-radius: 50%;
+    color:'#00A699';
+    font-family: 'CerealLight';
+}
+
+li {
+    font-family: 'CerealLight';
+}
